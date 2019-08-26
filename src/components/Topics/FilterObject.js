@@ -28,6 +28,8 @@ export default class FilterObject extends Component {
         this.setState({ userInput: val });
       }
       filterEmployees(prop) {
+          let employees = this.state.employees;
+          let filteredEmployees = [];
 
     }
     render() {
